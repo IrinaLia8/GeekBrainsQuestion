@@ -1,0 +1,16 @@
+import UIKit
+
+class Juice {
+    let taste: String
+    let volume: Double
+    let sellByDate: Date
+    
+    init(taste: String, volume: Double, sellByDate: Date) {
+        self.taste = taste
+        self.volume = volume
+        self.sellByDate = sellByDate
+    }
+}
+
+var amito = Juice(taste: "cherry", volume: 1.0, sellByDate: "2019-08-28")
+
